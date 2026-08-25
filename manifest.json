@@ -1,0 +1,15 @@
+{
+  "name":"Paws-And-Walks-Pro",
+  "short_name":"Paws & Walks",
+  "description":"Dependable dog walking, pet sitting, and overnight pet care.",
+  "start_url":"./",
+  "scope":"./",
+  "display":"standalone",
+  "orientation":"portrait-primary",
+  "background_color":"#f7f6f0",
+  "theme_color":"#0f766e",
+  "lang":"en-US",
+  "icons":[
+    {"src":"icons/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}

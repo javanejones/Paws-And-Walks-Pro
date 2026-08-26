@@ -24,12 +24,18 @@
     <section id="contact" class="section contact-section"><div class="section-heading"><span class="eyebrow">Let's connect</span><h2>Tell us what your pet needs</h2><p>Your request is sent automatically to our business inbox. No email or texting app is opened.</p></div>
       <form id="booking-form" class="booking-form" action="https://formsubmit.co/el/furejo" method="POST">
         <input type="hidden" name="_subject" value="New Paws-And-Walks-Pro Care Request"><input type="hidden" name="_captcha" value="false"><input type="hidden" name="_template" value="table"><input type="hidden" name="_next" value="https://javanejones.github.io/Paws-And-Walks-Pro/#contact">
-        <label>Name<input required name="name" autocomplete="name" placeholder="Your name"></label><label>Email<input required type="email" name="email" autocomplete="email" placeholder="you@example.com"></label><label>Pet name<input name="pet" placeholder="Your pet's name"></label><label>Service<select required name="service"><option value="">Choose a service</option><option>Dog Walking</option><option>Pet Sitting</option><option>Overnight Care</option><option>Custom Care</option></select></label><label class="full">Preferred date/time<input name="date" type="datetime-local"></label><label class="full">Tell us about your pet and what you need<textarea name="message" rows="5" placeholder="Pet type, number of pets, routine, special instructions, etc."></textarea></label><button class="btn btn-primary full" type="submit">Send Care Request</button><p id="form-status" class="form-status" role="status"></p>
+        <label>Name<input required name="name" autocomplete="name" placeholder="Your name"></label>
+        <label>Cell Phone<input required type="tel" name="phone" autocomplete="tel" inputmode="tel" placeholder="(224) 555-1234"></label>
+        <label>Email<input required type="email" name="email" autocomplete="email" placeholder="you@example.com"></label>
+        <label>Pet name<input name="pet" placeholder="Your pet's name"></label>
+        <label>Service<select required name="service"><option value="">Choose a service</option><option>Dog Walking</option><option>Pet Sitting</option><option>Overnight Care</option><option>Custom Care</option></select></label>
+        <label class="full">Preferred date/time<input name="date" type="datetime-local"></label>
+        <label class="full">Tell us about your pet and what you need<textarea name="message" rows="5" placeholder="Pet type, number of pets, routine, special instructions, etc."></textarea></label><button class="btn btn-primary full" type="submit">Send Care Request</button><p id="form-status" class="form-status" role="status"></p>
       </form>
     </section>
   </main>
   <footer><div><strong>🐾 Paws-And-Walks-Pro</strong><p>Dependable pet care with a personal touch.</p></div><div><a href="#services">Services</a><a href="#pricing">Pricing</a><a href="#contact">Contact</a></div><p>© <span id="year"></span> Paws-And-Walks-Pro</p></footer>
   <button id="install-btn" class="install-btn" hidden>＋ Install App</button>
-  <script src="app.js?v=4"></script>
+  <script src="app.js?v=5"></script>
 </body>
 </html>
